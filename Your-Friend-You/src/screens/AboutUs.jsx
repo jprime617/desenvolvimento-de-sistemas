@@ -1,21 +1,17 @@
 import React from 'react'
 import '../style.css'
 import Header from '../components/Header'
-import Banner from '../components/Banner'
-import Sobre from '../components/Sobre'
 import Footer from '../components/Footer'
-import Nos from '../components/Nos'
 
-function Home() {
+
+function AboutUs() {
   return (
     <main>
         <Header />
-        <Banner />
-        <Sobre />
-        <Nos />
+        <Texto />
         <Footer />
     </main>
   )
 }
 
-export default Home
+export default AboutUs
