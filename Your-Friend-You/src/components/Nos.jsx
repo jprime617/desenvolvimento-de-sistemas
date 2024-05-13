@@ -6,24 +6,24 @@ export default function Nos(){
         <div className="nos-membros">
 
             <div className="nos-membro">
-                <img src="../public/placeholder.webp" alt="" />
-                <h1>Aquino</h1>
-                <p>Tasca Henrique</p>
+                <img src="../public/lucas.jpg" alt="" />
+                <h1>Lucas Grohe Gomes</h1>
+                <p>Auxiliar</p>
             </div>
             <div className="nos-membro">
-                <img src="../public/placeholder.webp" alt="" />
-                <h1>Nome</h1>
-                <p>Texto</p>
+                <img src="../public/canofre.jpg" alt="" />
+                <h1>Arthur Canofre</h1>
+                <p>Pro-Player</p>
             </div>
             <div className="nos-membro">
-                <img src="../public/placeholder.webp" alt="" />
-                <h1>Nome</h1>
-                <p>Texto</p>
+                <img src="../public/diogo.jpg" alt="" />
+                <h1>Diogo Pastor</h1>
+                <p>Pro-Gamer</p>
             </div>
             <div className="nos-membro">
-                <img src="../public/placeholder.webp" alt="" />
-                <h1>Nome</h1>
-                <p>Texto</p>
+                <img src="../public/psilva.jpg" alt="" />
+                <h1>João Pedro Silva</h1>
+                <p>Front-End</p>
             </div>
             <div className="nos-membro">
                 <img src="../public/placeholder.webp" alt="" />

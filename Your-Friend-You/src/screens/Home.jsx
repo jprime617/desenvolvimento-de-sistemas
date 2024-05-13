@@ -5,6 +5,7 @@ import Banner from '../components/Banner'
 import Sobre from '../components/Sobre'
 import Footer from '../components/Footer'
 import Nos from '../components/Nos'
+import SobreNos from '../components/SobreNos'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
         <Header />
         <Banner />
         <Sobre />
+        <SobreNos />
         <Nos />
         <Footer />
     </main>

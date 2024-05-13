@@ -5,7 +5,7 @@
 }
 
 .container-header{
-    background-color: gray;
+    background-color: #df6b67;
     display: flex;
     align-items: center;
     height: 80px;
@@ -33,7 +33,7 @@
 
 .container-header .Navbar li a{
     margin-left: 20px;
-    color: violet;
+    color: black;
     text-decoration: none;
 }
 
@@ -43,13 +43,13 @@
 
 .container-banner{
     background-color: white;
+    text-align: center;
+    margin-top: 20px;
 }
 
-
 .container-banner img{
-    width: 100%;
-    height: 500px;
-    
+    object-fit: cover;
+    width: 70%;
 }
 
 .container-nos{
@@ -95,31 +95,39 @@
     font-style: italic;
 }
 
-.container-sobre{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+.container-sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
-.container-sobre div{
-    width: 400px;
-    text-align: center;
+.container-sobre div {
+  text-align: center;
 }
 
-.container-sobre div p{
-    margin-top: 20px;
+.container-sobre div p {
+  margin-top: 20px;
 }
 
-.container-footer{
+.container-sobre div img {
+  width: 300px;
+  height: 300px;
+}
+
+.text-sobre {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.footer{
     margin-top: 50px;
     background-color: gray;
     height: 50px;
     display: flex;
-    justify-content: center;
     align-items: center;
     color: white;
+    font-size: 10px;
 }
 
 .container-texto{
@@ -127,82 +135,20 @@
 }
 
 .titulo{
-    background-color: #db6b67;
-    height: 60px;
-    padding: 20px 50px;
-    color: black;
+
 }
 
 .titulo h1{
-    font-size: 50px;
+ font-size: 24px;
 }
 
-.descricao{
-    font-size: 10px;
-}
 
-.paginasobre{
-    background-color: #fffbb9;
-  }
-  .paginasobre h1{
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
-  
-  }
-  
-  .paginasobre h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-  }
-  
-  .sobre img{
-    width: 700px;
-    height: 1000px;
-    border-radius: 10px;
-    object-fit: cover;
-  }
-  
-  .sobre {
-    display: flex;
-    justify-content: space-around;
-    padding: 30px;
-    align-items:center;
-  }
-  
-  .descricao{
-    gap: 60px;
-    padding: 20px;
-  }
-  
-  @media screen and (max-width:600px){
-    .paginasobre{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      padding: 10px;
-    }
-    .titulo h1{
-    font-size: 30px;
-    }
-      .titulo{
-        height: 30px;
-      }
-    .sobre{
-      display: flex;
-      flex-direction: column;
-      padding: 10px;
-    }
-    .descricao{
-      font-size: 10px;
-      padding: 10px;
-    }
-    .sobre img{
-      width: 70vw;
-      height: 550px;
-      padding: 5px;
-      gap: 10px;
-    }
-  }
-  
-  
+.titulo p{
+  font-size: 11px;
+ }
+
+ .descricao h1{
+  font-size: 14px;
+ }
+
+ 
