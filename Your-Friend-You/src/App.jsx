@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './screens/Home'
-import './style.css'
+//import './style.css'
 
 function App() {
   return (

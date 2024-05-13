@@ -12,7 +12,6 @@
     width: 100%;
     justify-content: space-between;
     color: white;
-    position: fixed;
 }
 
 .container-header h1{
@@ -46,12 +45,6 @@
     background-color: white;
 }
 
-.container-banner h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .container-banner img{
     width: 100%;
@@ -132,3 +125,84 @@
 .container-texto{
     background-color: black;
 }
+
+.titulo{
+    background-color: #db6b67;
+    height: 60px;
+    padding: 20px 50px;
+    color: black;
+}
+
+.titulo h1{
+    font-size: 50px;
+}
+
+.descricao{
+    font-size: 10px;
+}
+
+.paginasobre{
+    background-color: #fffbb9;
+  }
+  .paginasobre h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  
+  }
+  
+  .paginasobre h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+  }
+  
+  .sobre img{
+    width: 700px;
+    height: 1000px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .sobre {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items:center;
+  }
+  
+  .descricao{
+    gap: 60px;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width:600px){
+    .paginasobre{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 10px;
+    }
+    .titulo h1{
+    font-size: 30px;
+    }
+      .titulo{
+        height: 30px;
+      }
+    .sobre{
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+    .descricao{
+      font-size: 10px;
+      padding: 10px;
+    }
+    .sobre img{
+      width: 70vw;
+      height: 550px;
+      padding: 5px;
+      gap: 10px;
+    }
+  }
+  
+  
