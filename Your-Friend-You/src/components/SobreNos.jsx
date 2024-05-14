@@ -1,14 +1,15 @@
 export default function SobreNos () {
     return(
-        <div className="paginasobre">
-
+    
+    <div className="paginasobre">
+<hr></hr>
+    <div className="sobre">
+    <img src="https://www.designi.com.br/images/preview/10290146.jpg"></img>
+    <div className="descricao">
+    
     <div className="titulo">
     <h1>Sobre o aplicativo</h1>
-    </div>
-
-    <div className="sobre">
-
-    <div className="descricao">
+    </div><br></br><br></br>
         <h1>Proposta de valor</h1>
         <p> Um aplicativo unificado de técnicas e ferramentas,
          para desenvolvimento socioemocional, 
