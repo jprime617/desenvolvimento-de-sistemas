@@ -87,11 +87,13 @@
     background-color: white;
     text-align: center;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .container-banner img{
     object-fit: cover;
-    width: 70%;
+    width: 100%;
 }
 
 .container-nos{
@@ -117,7 +119,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0px 10px;
+    margin-left: 40px;
     
 }
 
@@ -152,10 +154,6 @@
     background-color: black;
 }
 
-.titulo{
-
-}
-
 .titulo h1{
  font-size: 24px;
 }
@@ -168,5 +166,79 @@
  .descricao h1{
   font-size: 14px;
  }
+
+ .slider {
+    display: block;
+    height: 700px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    justify-content: center;
+    
+  }
+  .slider li {
+    list-style: none;
+    position: absolute;
+  }
+  
+  .slider img {
+    margin: auto;
+    height: 90%;
+    width: 70%;
+    vertical-align: top;
+    object-fit: cover;
+  }
+
+  .slider input {
+    display: none;
+}
+.slider label{
+    justify-content: center;
+    background-color: gray;
+    border-radius: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label{
+    left: 10px;
+}
+
+.slider li:nth-child(2) label{
+    left: 40px;
+}
+
+.slider li:nth-child(3) label{
+    left: 70px;
+}
+
+.slider li:nth-child(4) label{
+    left: 10px;
+}
+
+.slider li:nth-child(5) label{
+    left: 40px;
+}
+
+.slider li:nth-child(6) label{
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
 
  
