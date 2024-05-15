@@ -22,9 +22,6 @@ menos uma versão beta para a apresentação do trabalho final e disponibilizaç
 público geral.
             </p>
           </div>
-          <div className="img-sobre">
-            <img src="../public/placeholder.webp" alt="" />
-          </div>
         </div>
       </section>
     );

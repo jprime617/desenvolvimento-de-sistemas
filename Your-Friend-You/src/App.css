@@ -53,19 +53,9 @@
 @media screen and (max-width: 600px) {
   .container-sobre{
     flex-direction: column; /* Alterando a direção para 'column' em telas menores */
-    padding: 20px;
     align-items: center;
     justify-content: center;
-    gap: 10px;
     font-size: 20px;
-  }
-  .img-sobre{
-    flex-direction: column; /* Alterando a direção para 'column' em telas menores */
-    padding: 20px;
-    align-items: center;
-    gap: 10px;
-    width: 70vw;
-  
   }
   .titulo h1 {
       font-size: 24px;
