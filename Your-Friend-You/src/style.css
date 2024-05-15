@@ -60,19 +60,16 @@ margin: 40px;
 }
 
 .grupo img{
-<<<<<<< Updated upstream
     height: 300px;
     width: 500px;
     object-fit: cover;
     border-radius: 10px;
-=======
     display: flex;
     justify-content: right;
     height: 550px;
     width: 750px;
     object-fit: cover;
     border-radius: 15px;
->>>>>>> Stashed changes
 }
 
 
@@ -324,19 +321,13 @@ margin: 40px;
         
     }
     .grupo img{
-<<<<<<< Updated upstream
         width: 100%;
         height: 200px; /* Mantendo a proporção da imagem */
         object-fit: cover;
         border-radius: 10px;
     }
-    /* .grupo {
+      .grupo {
         margin-right: 100px;
-        
-    } */
-    
-    
-=======
         width: 800;
         height: 800px; /* Mantendo a proporção da imagem */
         object-fit: cover;
@@ -355,9 +346,5 @@ margin: 40px;
           font-size: 10px;
         }
       }
-    
-
-
->>>>>>> Stashed changes
 
  
