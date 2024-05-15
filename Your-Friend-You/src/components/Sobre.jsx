@@ -23,7 +23,7 @@ público geral.
             </p>
           </div>
         <div className="grupo">
-          <img src="../photo.grupo.jpeg" alt="" />
+          <img src="grupo.jpeg" alt="" />
         </div>
         </div>
       </section>
