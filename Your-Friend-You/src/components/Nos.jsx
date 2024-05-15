@@ -31,9 +31,9 @@ export default function Nos(){
                 <p>Front-End</p>
             </div>
             <div className="nos-membro">
-                <img src="../public/placeholder.webp" alt="" />
-                <h1>Nome</h1>
-                <p>Texto</p>
+                <img src="../public/apollo_narciso.jpg" alt="" />
+                <h1>Apollo/Narciso(Aquino)</h1>
+                <p>Front-end</p>
             </div>
         </div>
             
