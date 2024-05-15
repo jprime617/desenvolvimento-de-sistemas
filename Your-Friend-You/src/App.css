@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 /* configurações das páginas "Sobre" e "SobreNos" */
 
@@ -16,12 +18,10 @@
 }
 
 .paginasobre h1 {
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
 .paginasobre h2 {
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
 }
 
@@ -47,7 +47,9 @@
   width: 45vw;
   text-align: justify;
 }
-
+.descricao h1{
+ font-size: 20px;
+}
 @media screen and (max-width: 600px) {
   .titulo h1 {
       font-size: 24px;

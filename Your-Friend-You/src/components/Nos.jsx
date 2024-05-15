@@ -26,7 +26,7 @@ export default function Nos(){
                 <p>Front-End</p>
             </div>
             <div className="nos-membro">
-                <img src="../public/nicky.jpg" alt="" />
+                <img src="../public/nicky.png" alt="" />
                 <h1>Nicoly Silva de Castro</h1>
                 <p>Front-End</p>
             </div>

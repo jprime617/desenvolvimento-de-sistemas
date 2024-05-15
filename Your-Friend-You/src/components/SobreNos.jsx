@@ -10,6 +10,7 @@ export default function SobreNos () {
     <div className="titulo">
     <h1>Sobre o aplicativo</h1>
     </div><br></br><br></br>
+    
         <h1>Proposta de valor</h1>
         <p> Um aplicativo unificado de técnicas e ferramentas,
          para desenvolvimento socioemocional, 
