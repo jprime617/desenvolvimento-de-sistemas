@@ -8,17 +8,17 @@ export default function Nos(){
             <div className="nos-membro">
                 <img src="../public/lucas.jpg" alt="" />
                 <h1>Lucas Grohe Gomes</h1>
-                <p>Auxiliar</p>
+                <p>Front-End</p>
             </div>
             <div className="nos-membro">
                 <img src="../public/canofre.jpg" alt="" />
                 <h1>Arthur Canofre</h1>
-                <p>Pro-Player</p>
+                <p>Front-End</p>
             </div>
             <div className="nos-membro">
                 <img src="../public/diogo.jpg" alt="" />
                 <h1>Diogo Pastor</h1>
-                <p>Pro-Gamer</p>
+                <p>Front-End</p>
             </div>
             <div className="nos-membro">
                 <img src="../public/psilva.jpg" alt="" />
@@ -26,9 +26,9 @@ export default function Nos(){
                 <p>Front-End</p>
             </div>
             <div className="nos-membro">
-                <img src="../public/placeholder.webp" alt="" />
-                <h1>Nome</h1>
-                <p>Texto</p>
+                <img src="../public/nicky.jpg" alt="" />
+                <h1>Nicoly Silva de Castro</h1>
+                <p>Front-End</p>
             </div>
             <div className="nos-membro">
                 <img src="../public/placeholder.webp" alt="" />
