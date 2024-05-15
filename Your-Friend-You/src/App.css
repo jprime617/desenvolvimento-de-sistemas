@@ -8,7 +8,7 @@
 
 
 .titulo h1 {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .paginasobre {
@@ -52,7 +52,7 @@
 }
 @media screen and (max-width: 600px) {
   .titulo h1 {
-      font-size: 24px;
+      font-size: 30px;
   }
 
   .sobre {
