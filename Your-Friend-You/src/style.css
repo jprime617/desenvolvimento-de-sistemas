@@ -147,9 +147,19 @@ margin: 40px;
     font-style: italic;
 }
 .footer {
-    background-color: #df6b67;
+       background-color: #df6b67;
         color: #fff;
         padding: 20px;
+        margin-top: 50px;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 12px;
+        padding: 10px;
+        justify-content: space-around;
+        gap: 10px;
       }
       
       .footer-left h2 {
@@ -159,6 +169,7 @@ margin: 40px;
       .contact-info {
         margin-top: 20px;
         justify-content: right;
+        align-items: center;
       }
       
       .contact-info h2 {
@@ -332,10 +343,17 @@ margin: 40px;
           .footer {
         padding: 10px;
         max-height: none;
+        margin-top: 50px;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
         }
       
         .footer-left h2 {
-          font-size: 14px;
+          font-size: 12px;
         }
       
         .contact-info h2 {
