@@ -4,11 +4,12 @@ export default function SobreNos () {
     <div className="paginasobre">
 <hr></hr>
     <div className="sobre">
-    <img src="https://www.designi.com.br/images/preview/10290146.jpg"></img>
+    <img src="grafico.png"></img>
+    
     <div className="descricao">
     
     <div className="titulo">
-    <h1>Sobre o aplicativo</h1>
+    <h4>Sobre o aplicativo</h4>
     </div><br></br><br></br>
     
         <h1>Proposta de valor</h1>

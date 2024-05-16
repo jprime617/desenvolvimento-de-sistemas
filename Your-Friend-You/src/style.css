@@ -60,16 +60,13 @@ margin: 40px;
 }
 
 .grupo img{
-    height: 300px;
-    width: 500px;
+    height: 400px;
+    width: 100%;
     object-fit: cover;
     border-radius: 10px;
     display: flex;
     justify-content: right;
-    height: 550px;
-    width: 750px;
-    object-fit: cover;
-    border-radius: 15px;
+    
 }
 
 

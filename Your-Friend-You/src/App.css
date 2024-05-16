@@ -7,7 +7,7 @@
 /* configurações das páginas "Sobre" e "SobreNos" */
 
 
-.titulo h1 {
+.titulo h4 {
   font-size: 30px;
 }
 
@@ -26,8 +26,7 @@
 }
 
 .sobre img {
-  max-width: 70%; /* Alterando para 'max-width' para garantir que a imagem não ultrapasse a largura da tela */
-  height: 500px; /* Mantendo a proporção da imagem */
+  width: 40%; /* Alterando para 'max-width' para garantir que a imagem não ultrapasse a largura da tela */ 
   border-radius: 10px;
   object-fit: cover;
 }
@@ -51,7 +50,7 @@
  font-size: 20px;
 }
 @media screen and (max-width: 600px) {
-  .titulo h1 {
+  .titulo h4 {
       font-size: 30px;
   }
 
@@ -69,7 +68,6 @@
   }
   .sobre img {
       width: 100%;
-      height: 500px; /* Mantendo a proporção da imagem */
   }
 }
 

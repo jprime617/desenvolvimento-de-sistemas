@@ -10,6 +10,7 @@ function AboutUs() {
   return (
     <main>
         <Header />
+        <Nos/>
         <SobreNos />
         <Footer />
     </main>
