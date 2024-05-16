@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Sobre() {
     return (
-      <section className="sec-sobre">
+      <section id="sobre-nos" className="sec-sobre">
         <div className="container-sobre">
           <div className="text-sobre"> 
             <h1>Sobre Nós</h1><br></br>

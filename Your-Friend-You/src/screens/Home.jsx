@@ -6,6 +6,7 @@ import Sobre from '../components/Sobre'
 import Footer from '../components/Footer'
 import Nos from '../components/Nos'
 import SobreNos from '../components/SobreNos'
+import Galeria from '../components/Galeria'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
         <Banner />
         <Sobre />
         <SobreNos />
+        <Galeria />
         <Nos />
         <Footer />
     </main>
