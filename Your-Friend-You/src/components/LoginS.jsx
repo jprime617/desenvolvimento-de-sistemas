@@ -8,16 +8,14 @@ export default function () {
                 <input type="text" name="" id="usuId" />
                 <label>Senha:</label>
                 <input type="password" name="" id="senId" />
-                <button onClick={Salvar}>Login</button>
+                <button onClick={Check}>Login</button>
+                <a href="/Cadastro">Criar Conta</a>
             </div>
         </div>
         </section>
     )
 }
 
-function Salvar(){
-    const usuario = document.getElementById("usuId").value
-    const senha = document.getElementById("senId").value
-
-    localStorage.setItem(usuario, senha)
+function Check(){
+    localStorage.getItem()
 }
