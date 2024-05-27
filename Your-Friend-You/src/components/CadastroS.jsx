@@ -8,6 +8,8 @@ export default function CadastroS(){
                 <input type="text" />
                 <label>Sobrenome:</label>
                 <input type="text" />
+                <label>Idade:</label>
+                <input type="number" />
                 <label>Email:</label>
                 <input type="text" />
                 <label>Numero:</label>
