@@ -2,7 +2,7 @@ export default function AdminS(){
     return(
         <>
             <section className="container-adm">
-                <h1>Area do admnistrador</h1>
+                <h1>Área do admnistrador</h1>
                 <div>
                 <h2>Blogs criados</h2><a href="/CadastroBlog"> <button>Criar novo</button></a>
                 </div>
