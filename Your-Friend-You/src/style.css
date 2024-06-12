@@ -479,10 +479,50 @@ margin: 40px;
     font-size: 25px;
 }
 
+/* EDIÇÃO DO BLOG */
 
+.editblog {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    margin: 10px auto;
+    padding: 16px;
+}
+.tituloartigo{
+    width: 600px;
+    height: 40px;
+}
+.conteudo{
+    width: 600px;
+    height: 400px;
+}
 
-
-
+.cancelar {
+    background: #cc4242;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .salvar {
+    background: #42cc5b;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .cancelar:hover {
+    background: #8d2e2e;
+  }
+  .salvar:hover {
+    background: #319a44;
+  }
 
 
 
@@ -595,6 +635,24 @@ margin: 40px;
         .container-adm div{
             width: 60%;
         }
+        /* EDIÇÃO DO BLOG */
+
+.editblog {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    margin: 10px auto;
+    padding: 16px;
+}
+.tituloartigo{
+    width: 600px;
+    height: 40px;
+}
+.conteudo{
+    width: 600px;
+    height: 400px;
+}
         
       }
 
