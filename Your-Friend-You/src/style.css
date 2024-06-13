@@ -352,7 +352,8 @@ margin: 40px;
 }
 
 .login-div2 button{
-    margin-top: 20px;
+    margin-top: 1px;
+    width: 180px;
 }
 
 .login-div2 a{
@@ -444,7 +445,8 @@ margin: 40px;
 }
 
 .cadastro-div2 button{
-    margin-top: 20px;
+    margin-top: 1px;
+    width: 180px;
 }
 
 .cadastro-div2 a{

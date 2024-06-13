@@ -18,7 +18,7 @@ export default function CadastroS(){
                 <input type="text" name="" id="usuId" />
                 <label>Senha:</label>
                 <input type="password" name="" id="senId" />
-                <button>Cadastrar</button>
+                <a href="/Login"><button>Cadastrar</button></a>
             </div>
         </div>
         </section>
