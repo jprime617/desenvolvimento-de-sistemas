@@ -7,7 +7,6 @@ export default function Navbar() {
             <li><a target="blank" href="https://github.com/jprime617/desenvolvimento-de-sistemas">Github</a></li>
             <li><a href="/login">Login</a></li>
             <li><a href="/Blog">Blog</a></li>
-            <li><a href="/CadastroBlog">Cadastrar Blog</a></li>
         </nav>
     )
 }

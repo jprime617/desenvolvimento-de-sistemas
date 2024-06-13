@@ -8,7 +8,7 @@ export default function () {
                 <input type="text" name="" id="usuId" />
                 <label>Senha:</label>
                 <input type="password" name="" id="senId" />
-                <button onClick={Check}>Login</button>
+                <a href="/Admin"><button onClick={Check}>Login</button></a>
                 <a href="/Cadastro">Criar Conta</a>
             </div>
         </div>
