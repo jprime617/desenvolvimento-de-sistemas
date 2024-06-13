@@ -496,7 +496,9 @@ margin: 40px;
 .conteudo{
     width: 600px;
     height: 400px;
+    letter-spacing: 1px;
 }
+ 
 
 .cancelar {
     background: #cc4242;
@@ -523,6 +525,41 @@ margin: 40px;
   .salvar:hover {
     background: #319a44;
   }
+
+  
+.input-img{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.input-img input{
+    margin-left: 10px;
+    display: none;
+}
+
+
+.input-img label{
+    margin-top: 20px;
+    color: white;
+    margin-left: 10px;
+    width: 200px;
+    border-radius: 3px;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    display: flex;
+    justify-content: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+
+.input-img label:hover{
+    background-color: #1046c3;;
+}
 
 
 
@@ -655,5 +692,3 @@ margin: 40px;
 }
         
       }
-
- 

@@ -6,7 +6,7 @@ export default function Banner(){
         <li>
           <input type="radio" id="slide1" name="slide" checked></input>
           <label for="slide1"></label>
-          <img src="1.jpg" />
+          <img src="1.png" />
         </li>
 
         <li>

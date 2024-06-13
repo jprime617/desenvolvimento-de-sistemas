@@ -1,13 +1,13 @@
 import React from 'react'
 import '../style.css'
 import Header from '../components/Header'
-import AdminS from '../components/AdminS'
+import EditBlog from '../components/EditBlog'
 
-export default function Admin() {
+export default function CadastroBlog(){
     return(
         <main>
-            <Header/>
-            <AdminS/>
+        <Header/>
+        <EditBlog/>
         </main>
     )
 }

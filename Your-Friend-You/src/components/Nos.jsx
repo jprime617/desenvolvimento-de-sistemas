@@ -11,7 +11,7 @@ export default function Nos(){
                 <p>Front-End</p>
             </div>
             <div className="nos-membro">
-                <img src="../public/canofre.jpg" alt="" />
+                <img src="../public/canofre1.jpg" alt="" />
                 <h1>Arthur Canofre</h1>
                 <p>Front-End</p>
             </div>
@@ -33,6 +33,11 @@ export default function Nos(){
             <div className="nos-membro">
                 <img src="../public/apollo_narciso.jpg" alt="" />
                 <h1>Apollo/Narciso(Aquino)</h1>
+                <p>Front-end</p>
+            </div>
+            <div className="nos-membro">
+                <img src="../public/Schmitz.jpg" alt="" />
+                <h1>Vitor Schmitz</h1>
                 <p>Front-end</p>
             </div>
         </div>

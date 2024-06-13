@@ -3,8 +3,6 @@ import '../style.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import BlogS from '../components/BlogS'
-import EditBlog from '../components/EditBlog'
-
 
 
 
@@ -13,7 +11,6 @@ function Blog() {
     <main>
         <Header />
         <BlogS />
-        <EditBlog/>
         <Footer />
     </main>
   )
