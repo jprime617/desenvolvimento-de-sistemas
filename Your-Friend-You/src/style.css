@@ -491,6 +491,7 @@ margin: 40px;
     margin: 10px auto;
     padding: 16px;
 }
+
 .tituloartigo{
     width: 600px;
     height: 40px;
@@ -578,16 +579,20 @@ margin: 40px;
         justify-content: center;
         align-items: center;
     }
-
+  
+  
     .container-header{
         font-size: 10px;
     }
-
+  
     .container-header img{
         width: 70px;
         height: 50px;
     }
-
+  
+    .navbar_blog{
+        margin-right: 2px;
+    }
 
     .text-sobre p{
         font-size: 15px;
@@ -644,7 +649,7 @@ margin: 40px;
         max-height: none;
         margin-top: 50px;
         height: auto;
-        width: 100%;
+        width: auto;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -674,23 +679,8 @@ margin: 40px;
         .container-adm div{
             width: 60%;
         }
-        /* EDIÇÃO DO BLOG */
-
-.editblog {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    flex-direction: column;
-    margin: 10px auto;
-    padding: 16px;
+    .conteudo{
+        width: 600px;
+        height: 400px;
+    }
 }
-.tituloartigo{
-    width: 600px;
-    height: 40px;
-}
-.conteudo{
-    width: 600px;
-    height: 400px;
-}
-        
-      }

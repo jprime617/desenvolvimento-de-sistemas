@@ -9,7 +9,7 @@ export default function CadastroS(){
                 <label>Sobrenome:</label>
                 <input type="text" />
                 <label>Idade:</label>
-                <input type="number" />
+                <input type="number" min= "1" max= "100" />
                 <label>Email:</label>
                 <input type="text" />
                 <label>Numero:</label>
