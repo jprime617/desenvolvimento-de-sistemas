@@ -1,30 +1,26 @@
-describe('Teste de Login', () => {
-  beforeEach(() => {
-      // Visita a página de login
-      cy.visit('/login'); // ajuste o caminho conforme necessário
+describe('Login Page', () => {
+    it('Logando', () => {
+      cy.visit('http://localhost:5173/login');
+      cy.get('#usuId').type('user123');
+      cy.get('#senId').type('password123');
+      cy.get('button').click();
+      cy.url().should('include', '/Admin')
+    });
+
+    it('Cadastrando', () => {
+        cy.visit('http://localhost:5173/Cadastro')
+        cy.get('input').eq(0).type('João'); // Nome
+        cy.get('input').eq(1).type('Silva'); // Sobrenome
+        cy.get('input').eq(2).type('25'); // Idade
+        cy.get('input').eq(3).type('joao.silva@example.com'); // Email
+        cy.get('input').eq(4).type('11987654321'); // Número
+        cy.get('#usuId').type('joaosilva123'); // Usuário
+        cy.get('#senId').type('senhaSegura123'); // Senha
+    
+        // Simula o clique no botão de cadastro
+        cy.get('button').click();
+    
+        // Verifica se o redirecionamento ocorreu para a página de login
+        cy.url().should('include', '/Login');
+    })
   });
-
-  it('Deve permitir que o usuário faça login com credenciais válidas', () => {
-      // Preenche o campo de usuário
-      cy.get('#usuId').type('usuario_teste'); // substitua pelo usuário de teste
-
-      // Preenche o campo de senha
-      cy.get('#senId').type('senha_teste'); // substitua pela senha de teste
-
-      // Clica no botão de login
-      cy.get('button').contains('Login').click();
-
-      // Verifica se a URL mudou para a página Admin
-      cy.url().should('include', '/Admin');
-  });
-
-  it('Deve redirecionar para a página de cadastro ao clicar em "Criar Conta"', () => {
-      // Clica no link de criar conta
-      cy.get('a').contains('Criar Conta').click();
-
-      // Verifica se a URL mudou para a página de cadastro
-      cy.url().should('include', '/Cadastro');
-  });
-});
-
-
