@@ -1,13 +1,26 @@
 describe('Login Page', () => {
     it('Logando', () => {
       cy.visit('http://localhost:5173/login');
-      cy.get('#usuId').type('user123');
-      cy.get('#senId').type('password123');
+      cy.get('#usuId').type('admin');
+      cy.get('#senId').type('admin');
       cy.get('button').click();
       cy.url().should('include', '/Admin')
     });
 
-    it('Cadastrando', () => {
+    it('Logando com credenciais errados', () => {
+      cy.visit('http://localhost:5173/login');
+      cy.get('#usuId').type('user123');
+      cy.get('#senId').type('password123');
+      cy.get('button').click();
+      
+      cy.on('window:alert', (txt) =>{
+        expect(txt).to.contains('Alguma coisa esta errada.')
+      });
+    });
+  });
+
+describe('Sign In Page', () => {
+  it('Cadastrando', () => {
         cy.visit('http://localhost:5173/Cadastro')
         cy.get('input').eq(0).type('João'); // Nome
         cy.get('input').eq(1).type('Silva'); // Sobrenome
@@ -23,4 +36,4 @@ describe('Login Page', () => {
         // Verifica se o redirecionamento ocorreu para a página de login
         cy.url().should('include', '/Login');
     })
-  });
+})
