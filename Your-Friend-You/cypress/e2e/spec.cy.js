@@ -36,4 +36,52 @@ describe('Sign In Page', () => {
         // Verifica se o redirecionamento ocorreu para a página de login
         cy.url().should('include', '/Login');
     })
+
 })
+
+
+describe('Github conection', () => {
+  it('Página Inicial', () => {
+    cy.visit('http://localhost:5173'); // Acessa a página inicial
+    cy.get('#github').click(); // Clica no botão de conexão com o GitHub na navbar
+
+    // Verifica se o redirecionamento é para a URL de autenticação do GitHub
+    cy.url().should('include', 'http://localhost:5173');
+  });
+
+  it('Página Cadastro', () => {
+    cy.visit('http://localhost:5173/Cadastro');
+    cy.get('#github').click(); 
+
+    cy.url().should('include', 'http://localhost:5173/Cadastro');
+  });
+
+  it('Página Login', () => {
+    cy.visit('http://localhost:5173/login');
+    cy.get('#github').click(); 
+
+    cy.url().should('include', 'http://localhost:5173/login');
+  });
+
+  it('Página CadastroBlog', () => {
+    cy.visit('http://localhost:5173/CadastroBlog');
+    cy.get('#github').click(); 
+
+    cy.url().should('include', 'http://localhost:5173/CadastroBlog');
+  });
+
+  it('Página Admin', () => {
+    cy.visit('http://localhost:5173/Admin');
+    cy.get('#github').click(); 
+
+    cy.url().should('include', 'http://localhost:5173/Admin');
+  });
+
+  it('Página Blog', () => {
+    cy.visit('http://localhost:5173/Blog');
+    cy.get('#github').click(); 
+
+    cy.url().should('include', 'http://localhost:5173/Blog');
+  });
+});
+
