@@ -40,6 +40,9 @@ describe('Sign In Page', () => {
 })
 
 
+
+
+
 describe('Github Connection', () => {
   it('Página Inicial', () => {
     cy.visit('http://localhost:5173'); // Acessa a página inicial
@@ -104,3 +107,70 @@ describe('Github Connection', () => {
   });
 });
 
+
+
+
+
+describe('Figma Connection', () => {
+  it('Página Inicial', () => {
+    cy.visit('http://localhost:5173'); // Acessa a página inicial
+
+    // Verifica se a URL do link pressionável está em conformidade antes de clicar nele, além de verificar se é aberto uma nova aba ao clicar nele.
+    cy.get('#figma').should('have.attr', 'href','https://www.figma.com/file/dsT9bBbQMpp5aYY94EKPuw/Your-Friend-You-%28High%29?type=design&node-id=0%3A1&mode=design&t=Kp4G3kQgUOe8cf5s-1&authuser=0').and('have.attr', 'target', 'blank'); 
+
+    cy.get('#figma').click(); // Clica no botão de conexão com o Figma na navbar
+
+    // Verifica se o redirecionamento é para a URL de autenticação do Figma, como é aberto uma nova aba, a aba do site deverá continuar no mesmo endereço.
+    cy.url().should('include', 'http://localhost:5173');
+  });
+
+  it('Página Cadastro', () => {
+    cy.visit('http://localhost:5173/Cadastro'); // Acessa a página inicial
+
+    cy.get('#figma').should('have.attr', 'href','https://www.figma.com/file/dsT9bBbQMpp5aYY94EKPuw/Your-Friend-You-%28High%29?type=design&node-id=0%3A1&mode=design&t=Kp4G3kQgUOe8cf5s-1&authuser=0').and('have.attr', 'target', 'blank'); 
+
+    cy.get('#figma').click(); // Clica no botão de conexão com o Figma na navbar
+
+    cy.url().should('include', 'http://localhost:5173/Cadastro');
+  });
+
+  it('Página Login', () => {
+    cy.visit('http://localhost:5173/login'); // Acessa a página inicial
+
+    cy.get('#figma').should('have.attr', 'href','https://www.figma.com/file/dsT9bBbQMpp5aYY94EKPuw/Your-Friend-You-%28High%29?type=design&node-id=0%3A1&mode=design&t=Kp4G3kQgUOe8cf5s-1&authuser=0').and('have.attr', 'target', 'blank'); 
+
+    cy.get('#figma').click(); // Clica no botão de conexão com o Figma na navbar
+
+    cy.url().should('include', 'http://localhost:5173/login');
+  });
+
+  it('Página CadastroBlog', () => {
+    cy.visit('http://localhost:5173/CadastroBlog'); // Acessa a página inicial
+
+    cy.get('#figma').should('have.attr', 'href','https://www.figma.com/file/dsT9bBbQMpp5aYY94EKPuw/Your-Friend-You-%28High%29?type=design&node-id=0%3A1&mode=design&t=Kp4G3kQgUOe8cf5s-1&authuser=0').and('have.attr', 'target', 'blank'); 
+
+    cy.get('#figma').click(); // Clica no botão de conexão com o Figma na navbar
+
+    cy.url().should('include', 'http://localhost:5173/CadastroBlog');
+  });
+
+  it('Página Admin', () => {
+    cy.visit('http://localhost:5173/Admin'); // Acessa a página inicial
+
+    cy.get('#figma').should('have.attr', 'href','https://www.figma.com/file/dsT9bBbQMpp5aYY94EKPuw/Your-Friend-You-%28High%29?type=design&node-id=0%3A1&mode=design&t=Kp4G3kQgUOe8cf5s-1&authuser=0').and('have.attr', 'target', 'blank'); 
+
+    cy.get('#figma').click(); // Clica no botão de conexão com o Figma na navbar
+
+    cy.url().should('include', 'http://localhost:5173/Admin');
+  });
+
+  it('Página Blog', () => {
+    cy.visit('http://localhost:5173/Blog'); // Acessa a página inicial
+
+    cy.get('#figma').should('have.attr', 'href','https://www.figma.com/file/dsT9bBbQMpp5aYY94EKPuw/Your-Friend-You-%28High%29?type=design&node-id=0%3A1&mode=design&t=Kp4G3kQgUOe8cf5s-1&authuser=0').and('have.attr', 'target', 'blank'); 
+
+    cy.get('#figma').click(); // Clica no botão de conexão com o Figma na navbar 
+
+    cy.url().should('include', 'http://localhost:5173/Blog');
+  });
+});
